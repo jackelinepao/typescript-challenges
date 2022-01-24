@@ -1,1 +1,3 @@
-export type First<T extends any[]> = any
+export type First<T extends keyof any[]> = {
+  
+}

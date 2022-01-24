@@ -1,1 +1,1 @@
-export type Length<T extends any> = any
+export type Length<T, N extends number> = any
